@@ -50,6 +50,6 @@
 }
 
 .video-js .vjs-dock-text {
-  background: linear-gradient(-90deg, rgba(247,126,50,.8) 70%, transparent);
+  background: linear-gradient(-90deg, rgba(247,126,50,.7) 50%, transparent);
   height: 20%;
 }
