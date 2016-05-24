@@ -49,7 +49,7 @@
   background-color: rgba(247, 126, 50, 0.5);
 }
 
-/*.video-js .vjs-dock-text {
-  background: linear-gradient(45deg, rgba(255,0,0,.8) 70%, transparent);
+.video-js .vjs-dock-text {
+  background: linear-gradient(45deg, rgba(0,255,0,.8) 70%, transparent);
   height: 50%;
-}*/
+}
