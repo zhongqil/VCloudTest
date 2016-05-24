@@ -1,5 +1,42 @@
-
-
-.video-js.vjs-mouse.vjs-big-play-button{
-  background-color: #F39510;
+/*
+  The following rule sets the
+  size of the player
+*/
+.video-js {
+  width: 640px;
+  height: 360px;}
+/*****************************/
+/*****************************/
+/*
+  The following TWO rules set
+  the location and size of
+  the big play button
+*/
+/*
+  This rule sets the color,
+   opacity, size and position of the
+   big play button
+*/
+.video-js.vjs-mouse .vjs-big-play-button {
+  background-color: #F3951D;
+  opacity: .8;
+  width: 150px;
+  height: 100px;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #FFFFFF;
+  margin-left: -11%;
+}
+/*
+  This rule sets the location and size
+  of the triangular play icon in the
+  big play button
+*/
+.video-js.vjs-mouse .vjs-big-play-button:before {
+  font-size: 1.5em;
+  color: white;
+  opacity: .9;
+  margin-top: -2.5%;
+  margin-left: -2.5%
 }
