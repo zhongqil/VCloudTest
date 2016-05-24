@@ -47,5 +47,9 @@
 
 .video-js .vjs-control-bar {
   background-color: rgba(247, 126, 50, 0.5);
-  color: #409ca9;
+}
+
+.video-js .vjs-dock-text {
+  background: linear-gradient(45deg, rgba(0,0,255,.8) 35%, transparent);
+  height: 50%;
 }
