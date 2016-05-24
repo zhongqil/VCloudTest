@@ -41,8 +41,7 @@
   margin-left: -2.5%
 }
 
-
-/*.video-js.vjs-progress-holder*/
-.vjs-play-progress{
-  background-color: #409ca9;
+.bc-player-SJRKibGQ_default .vjs-play-progress,
+  .bc-player-SJRKibGQ_default .vjs-volume-level {
+    background-color: #409ca9;
 }
