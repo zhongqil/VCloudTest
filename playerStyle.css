@@ -42,6 +42,7 @@
 }
 
 
-.video-js.vjs-progress-holder .vjs-play-progress{
+/*.video-js.vjs-progress-holder*/
+.vjs-play-progress{
   background-color: #409ca9;
 }
