@@ -1,4 +1,5 @@
-.video-js {
-  width: 1000px;
-  height:500px;
+
+
+.video-js.vjs-mouse.vjs-big-play-button{
+  background-color: #F39510;
 }
