@@ -17,6 +17,7 @@
    opacity, size and position of the
    big play button
 */
+/*
 .video-js.vjs-mouse .vjs-big-play-button {
   background-color: #409ca9;
   opacity: .8;
@@ -27,6 +28,15 @@
   border-width: 4px;
   border-color: #FFFFFF;
   margin-left: -11%;
+}*/
+
+.video-js.vjs-mouse .vjs-big-play-button {
+  width: 0;
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid green;
 }
 /*
   This rule sets the location and size
