@@ -19,15 +19,14 @@
 */
 
 .video-js.vjs-mouse .vjs-big-play-button {
-  background-color: #409ca9;
-  opacity: .8;
+  background-color: rgba(247, 126, 50, 0.5);
   width: 150px;
   height: 100px;
   border-radius: 10%;
   border-style: solid;
   border-width: 4px;
   border-color: #FFFFFF;
-  margin-left: -11%;
+  margin-left: -9%;
 }
 /*
   This rule sets the location and size
