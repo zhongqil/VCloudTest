@@ -18,7 +18,7 @@
    big play button
 */
 .video-js.vjs-mouse .vjs-big-play-button {
-  background-color: #F3951D;
+  background-color: #409ca9;
   opacity: .8;
   width: 150px;
   height: 100px;
@@ -39,4 +39,9 @@
   opacity: .9;
   margin-top: -2.5%;
   margin-left: -2.5%
+}
+
+
+.video-js.vjs-play-progress.vjs-slider-bar{
+  background-color: #409ca9;
 }
