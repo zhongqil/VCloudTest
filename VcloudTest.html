@@ -1,5 +1,14 @@
 <html>
-<head><title>Bunny</title></head>
+<head>
+  <title>Bunny</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://momentjs.com/downloads/moment.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./VcloudTest.css"></link>
+</head>
 <body>
   <!-- iframe -->
   <!--
@@ -11,6 +20,7 @@
   -->
 
   <!-- in-Page -->
+  <!--
       <video data-video-id="4909720839001"
       data-account="4596912176001"
       data-player="SJRKibGQ"
@@ -21,6 +31,72 @@
       </video>
     <script src="http://players.brightcove.net/4596912176001/SJRKibGQ_default/index.min.js"></script>
   <ol class="vjs-playlist"></ol>
+-->
+
+<div class="container">
+<div class="row">
+  <div class="col-md-6">
+<video id="myPlayerID"
+  data-playlist-id="4757702188001"
+  data-account="4596912176001"
+  data-player="SJRKibGQ"
+  data-embed="default"
+  class="video-js" controls></video>
+</div>
+<div class="col-mid-6">
+  <ol id="playlist" class="vjs-playlist"></ol>
+</div>
+</div>
+</div>
+
+<div id="control-bar" class="vjs-control-bar" dir="ltr" role="group">
+
+    <button id="playButton" type="button" class="btn btn-info"><span class="glyphicon glyphicon-play"></span></button>
+
+      <input id="time-bar" type="range" min="0" max="1000" value="0" style="width: 240px;"></input>
+      <p id="time" class="pull-left">0:0:0/0:0:0</p>
+      <p id="time-remain" class="pull-right">0:0:0</p>
+
+    <button id="configPanel" type="button" class="btn btn-info-outline" data-container="body" data-toggle="popover" data-placement="top"><span class="glyphicon glyphicon-cog"></span></button>
+
+  
+
+    <button id="loopButton" type="button" class="btn btn-info-outline"><span class="glyphicon glyphicon-repeat"></span></button>
+    <button id="playlistLoopButton" type="button" class="btn btn-info-outline"><span class="glyphicon glyphicon-refresh"></span></button>
+
+    <button id="fullScreenButton" type="button" class="btn btn-info-outline"><span class="glyphicon glyphicon-fullscreen"></span></button>
+
+</div>
+
+<button id="getTextTrackButton">Get TextTracks</button>
+<div id="insertionPoint">
+  <p>Events dispatched:</p>
+</div>
+<p>Account id:
+  <input id="account_id" type="text" value="4596912176001">
+</p>
+<p>Policy key:
+  <input id="policy_key" type="text" size="80" value="BCpkADawqM2VxjABxAweyyyq_un-48m4ZCxb20dQOMWL2COYSk0Z_0ByXoMcExRP9MVxsk3hOBr7ZtI_eZN8ldu9v6zjT4iVg4iOPoIKsBMWM5slkKSpXxm4Y-jDLgEBYzZjKEw2iijizKtE">
+</p>
+<p>Video id:
+  <input id="video_id" value="4909720839001">
+</p>
+<p>Playlist id:
+  <input id="playlist_id" value="749117323001">
+</p>
+<p>
+  <button id="videoButton">Get a video</button>
+  <button id="playlistButton">Get a playlist</button>
+</p>
+<h2>API request:</h2>
+<pre id="apiRequest"></pre>
+<h2>Generated content</h2>
+<div id="generatedContent"></div>
+<h2>Response data</h2>
+<pre id="responseData"></pre>
+
+<script src="//players.brightcove.net/4596912176001/SJRKibGQ_default/index.min.js"></script>
+<script src="./VcloudTest.js"></script>
 
 </body>
 </html>

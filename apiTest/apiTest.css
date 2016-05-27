@@ -1,0 +1,39 @@
+body {
+  margin: 2em;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+img {
+  border: 1px solid #999;
+  float: left;
+  margin-right: 1em;
+  height: 72px;
+  width: 122px;
+}
+
+button {
+  padding: .5em;
+}
+
+pre {
+  background-color: #F1EFEE;
+  border-left: .5em solid #636363;
+  box-shadow: 5px 5px 10px rgba(192, 192, 192, 1.000);
+  font-family: Hack, monospace;
+  font-size: .8em;
+  padding: 1em;
+}
+
+.video-item {
+  border: 1px solid #999;
+  margin: 0;
+  padding: 0;
+  height: 74px;
+  width: 480px;
+  overflow: scroll;
+}
